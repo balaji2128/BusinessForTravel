@@ -1,0 +1,156 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User navigate to B2B page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3269000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on travelForBusiness page",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iAmOnTravelForBusinessPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T16:36:30.093Z",
+        "line": 10,
+        "name": "User should be able to add details",
+        "description": "",
+        "id": "travelforbusiness;user-should-be-able-to-add-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Click on register",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iClickOnRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Should be redirect to the Forms",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iShouldBeRedirectToTheForms()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1621000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Fill the details",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iFillTheDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6340000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Upload NPWP Document",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iUploadNPWPDocument()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5042000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Upload TDP Document",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iUploadTDPDocument()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Upload SIUP Document",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iUploadSIUPDocument()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I accpet to Terms and Conditions",
+            "match": {
+              "location": "com.quinbay.cucumber.steps.B2B_Steps.iAccpetToTermsAndConditions()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@B2B_Travel"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "TravelForBusiness",
+    "description": "",
+    "id": "travelforbusiness",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TravelForBusiness.feature",
+    "tags": [
+      {
+        "name": "@B2B_Travel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
