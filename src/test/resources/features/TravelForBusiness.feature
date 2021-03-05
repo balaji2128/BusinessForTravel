@@ -14,4 +14,5 @@
       Then I Upload NPWP Document
       Then I Upload TDP Document
       Then I Upload SIUP Document
+      Then I check the Documents
       Then I accpet to Terms and Conditions
